@@ -1,0 +1,30 @@
+h2 {
+    text-align: center;
+}
+
+.title {
+    background-color: $jelly-bean;
+    color: $white;
+    font-size: $xx-large;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    text-align: center;
+}
+
+.text__light {
+    font-weight: $extralight;
+}
+
+.text_bold {
+    font-weight: $bold;
+}
+
+.photo {
+    background-color: $granite-gray;
+    text-align: center;
+}
+
+.photo__tomate {
+    width: 70%;
+    padding-top: 2rem;
+}
