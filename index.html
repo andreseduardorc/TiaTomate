@@ -16,11 +16,11 @@
 <body>
     <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="#">
-            <img src="./assets/img/logo_header.png" width="200" height="50" alt="logo">
+            <img class="barra" src="./assets/img/logo_header.png" width="270" height="50" alt="logo">
         </a>
     </nav>
 
-    <header class="container-fluid">
+    <header>
 
         <section class="title">
             <p class="text__light">De nuestro cariño</p>
@@ -30,60 +30,70 @@
 
 
         <section>
-            <section class="photo">
+            <section class="photo col-sm-12">
                 <img class="photo__tomate" src="./assets/img/about-1.png" alt="imagenTomate">
 
                 <section class="photo__text">
-                    <h3>Tomates 100% Organicos</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quia nostrum veniam ab in autem quidem laborum assumenda esse,
-                    </p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, iusto! Eius aut, esse maiores illo possimus voluptatibus corporis explicabo corrupti consequuntur? Perspiciatis voluptates dicta molestiae voluptate, aliquid exercitationem
-                        autem incidunt?</p>
 
+                    <h3 class="pt-5">Tomates 100% Organicos</h3>
+                    <section class="photo__text__p pb-5">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quia nostrum veniam ab in autem quidem laborum assumenda esse,
+                        </p>
+                        <p class="d-none d-md-inline-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, iusto! Eius aut, esse maiores illo possimus voluptatibus corporis explicabo corrupti consequuntur? Perspiciatis voluptates dicta molestiae voluptate, aliquid exercitationem
+                            autem incidunt?</p>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+
+
+        <section class="photo__two">
+
+            <img class="photo__tomate " src="./assets/img/about-2.png" alt="limacheTomate">
+            <section>
+                <h3 class="pt-5">Desde Limache con amor</h3>
+                <section class="photo__text__p pb-5">
+                    <p class="d-none d-md-inline-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus architecto eius ipsam reprehenderit beatae minus nam aliquam. Cum iste, ipsa suscipit, animi quisquam voluptas necessitatibus, quis vitae placeat nam laborum?</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, distinctio ratione eligendi laborum saepe.</p>
                 </section>
             </section>
         </section>
 
     </header>
-
-    <section>
-        <img src="./assets/img/about-2.png" alt="limacheTomate">
-
-        <h3>Desde Limache con amor</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus architecto eius ipsam reprehenderit beatae minus nam aliquam. Cum iste, ipsa suscipit, animi quisquam voluptas necessitatibus, quis vitae placeat nam laborum?</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, distinctio ratione eligendi laborum saepe.</p>
-    </section>
     <section class="halfPage">
-        <h2>NOSOTROS</h2>
+        <p>NOSOTROS</p>
 
 
     </section>
-    <section>
+    <section class="bio">
 
-        <img src="./assets/img/about-3.png" alt="javieraK">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima porro voluptatibus, totam, </p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima porro voluptatibus, totam, harum et nam obcaecati recusandae ad,</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam id iusto asperiores esse, tempora eos vel! Dolorum magnam deserunt commodi atque architecto</p>
+        <img class="bio__photo py-5" src="./assets/img/about-3.png" alt="javieraK">
+        <section class="bio__photo__parrafo">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima porro voluptatibus, totam, </p>
+            <p class="d-none d-md-inline-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima porro voluptatibus, totam, harum et nam obcaecati recusandae ad,</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam id iusto asperiores esse, tempora eos vel! Dolorum magnam deserunt commodi atque architecto</p>
+        </section>
 
+        <img class="bio__photo py-5 " src="./assets/img/about-4.png" alt="robertoP">
+        <section class="bio__photo__parrafo ">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam pariatur adipisci reiciendis recusandae, consectetur quidem eligendi ipsam consequuntur velit quia id praesentium delectus magni beatae cumque repellendus! Dolores, quas
+                explicabo?
+            </p>
+        </section>
     </section>
 
-    <section>
-        <img src="./assets/img/about-4.png" alt="robertoP">
+    <section class="anuncio py-5">
 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam pariatur adipisci reiciendis recusandae, consectetur quidem eligendi ipsam consequuntur velit quia id praesentium delectus magni beatae cumque repellendus! Dolores, quas explicabo?</p>
-    </section>
-
-
-    <section>
-
-        <h2>¿Tomates para tu negocio?</h2>
-        <button type="button" class="btn btn-light">CLICK AQUI</button>
+        <h2 class="anuncio__text pb-3">¿Tomates para tu negocio?</h2>
+        <button type="button" class="btn btn-light anuncio__button">CLICK AQUI</button>
     </section>
 
 
 
-    <footer>
-        <img src="./assets/img/logo_footer.png" width="200" height="50" alt="logoFooter">
+    <footer class="logoend">
+        <img src="./assets/img/logo_footer.png" width="200" height="100" alt="logoFooter">
+
     </footer>
 
 

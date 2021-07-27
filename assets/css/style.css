@@ -9932,12 +9932,21 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-img {
-  max-width: 100%;
+h3 {
+  text-align: center;
+  font-weight: bold;
 }
 
 h2 {
   text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.barra {
+  padding-left: 3rem;
 }
 
 .title {
@@ -9947,6 +9956,11 @@ h2 {
   padding-top: 7rem;
   padding-bottom: 7rem;
   text-align: center;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 50px;
+  }
 }
 
 .text__light {
@@ -9960,11 +9974,99 @@ h2 {
 .photo {
   background-color: #686963;
   text-align: center;
+  color: #fff;
 }
 
 .photo__tomate {
   width: 70%;
   padding-top: 2rem;
+}
+@media (max-width: 768px) {
+  .photo__tomate {
+    width: 100%;
+  }
+}
+
+.photo__text {
+  text-align: center;
+  font-weight: 18px;
+}
+
+.photo__text__p {
+  margin: 0 15rem;
+}
+@media (max-width: 768px) {
+  .photo__text__p {
+    margin: 0 auto;
+  }
+}
+
+.photo__two {
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.bio {
+  text-align: center;
+}
+
+.bio__photo {
+  width: 35%;
+}
+@media (max-width: 768px) {
+  .bio__photo {
+    width: 70%;
+  }
+}
+
+.bio__photo__parrafo {
+  margin: 0 15rem;
+}
+@media (max-width: 768px) {
+  .bio__photo__parrafo {
+    margin: 0 auto;
+  }
+}
+
+.logoend {
+  background-color: #686963;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.halfPage {
+  background-color: #e97f72;
+  color: #fff;
+  padding: 3rem 0;
+  font-weight: 700;
+  text-align: center;
+  font-size: 50px;
+}
+@media (max-width: 768px) {
+  .halfPage {
+    font-size: 2rem;
+  }
+}
+
+.anuncio {
+  text-align: center;
+  background-color: #e97f72;
+  color: #fff;
+  font-weight: 700;
+}
+
+.anuncio__button {
+  border-radius: 30px;
+  background-color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  width: 22%;
+}
+@media (max-width: 768px) {
+  .anuncio__button {
+    width: 30%;
+    font-size: 1rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

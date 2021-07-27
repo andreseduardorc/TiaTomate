@@ -1,0 +1,18 @@
+    .halfPage {
+        background-color: $salmon;
+        color: $white;
+        padding: 3rem 0;
+        font-weight: $bold;
+        text-align: center;
+        font-size: $large;
+        @media (max-width: 768px) {
+            font-size: 2rem;
+        }
+    }
+    
+    .anuncio {
+        text-align: center;
+        background-color: $salmon;
+        color: $white;
+        font-weight: $bold;
+    }

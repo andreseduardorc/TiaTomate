@@ -1,0 +1,11 @@
+.anuncio__button {
+    border-radius: 30px;
+    background-color: $white;
+    font-weight: $bold;
+    font-size: $medium;
+    width: 22%;
+    @media(max-width: 768px) {
+        width: 30%;
+        font-size: 1rem;
+    }
+}

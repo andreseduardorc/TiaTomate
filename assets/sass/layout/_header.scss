@@ -1,7 +1,3 @@
-h2 {
-    text-align: center;
-}
-
 .title {
     background-color: $jelly-bean;
     color: $white;
@@ -9,6 +5,9 @@ h2 {
     padding-top: 7rem;
     padding-bottom: 7rem;
     text-align: center;
+    @media(max-width: 768px) {
+        font-size: $large;
+    }
 }
 
 .text__light {
@@ -22,9 +21,30 @@ h2 {
 .photo {
     background-color: $granite-gray;
     text-align: center;
+    color: $white;
 }
 
 .photo__tomate {
     width: 70%;
     padding-top: 2rem;
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.photo__text {
+    text-align: center;
+    font-weight: $medium;
+}
+
+.photo__text__p {
+    margin: 0 15rem;
+    @media(max-width: 768px) {
+        margin: 0 auto;
+    }
+}
+
+.photo__two {
+    background-color: $snow;
+    text-align: center;
 }
